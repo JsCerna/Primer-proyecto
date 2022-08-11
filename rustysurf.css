@@ -1,0 +1,94 @@
+.header {
+    background-image: url('https://fondosmil.com/fondo/1927.jpg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px;
+    }
+.container h1 {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.container h5 {
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    font-size: large;
+    font-weight: bold;
+    padding-right: 100px;
+    margin-top: 200px;
+    font-family: sans-serif;
+    margin-left: 150px;
+    }
+
+.main {
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/246/601/226/depth-of-field-blue-sea-dark-wallpaper-preview.jpg');
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-family: sans-serif;
+    border-width: 5px;
+    border-style: double;
+    border-color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+.img-thumbnail {
+    background-color: black;
+    margin: 20px
+}
+.catalogo li {
+    margin: 15px;
+    color: azure;
+    font-weight: bold;
+}
+.catalogo h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    color:azure
+    
+}
+.catalogo h3 {
+    color:azure;
+    font-weight: bold;
+}
+.catalogo p {
+    color: azure;
+    font-weight: bold;
+}
+.catalogo p2 {
+    color: azure;
+    font-weight: bold;
+    font-style: italic;
+}
+.futer {
+    display:flex;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0px;
+}
+
+.futer ul {
+    margin: 25px;
+    margin-left: 100px;
+
+}
+.futer li {
+    margin:20px;
+}
+@media screen and (max-width: 1200px){
+    html * {margin: 0; padding: 0;}
+}
+
+
