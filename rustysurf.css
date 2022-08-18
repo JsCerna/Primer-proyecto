@@ -27,7 +27,7 @@
 
 .main {
     background-image: url('https://p4.wallpaperbetter.com/wallpaper/246/601/226/depth-of-field-blue-sea-dark-wallpaper-preview.jpg');
-    height: 55vh;
+    min-height: 55vh;
     display: flex;
     justify-content: center;
     margin-top: 5px;
@@ -88,8 +88,33 @@
 .futer li {
     margin: 20px;
 }
-@media screen and (max-width: 1200px){
-    html * {margin: 0; padding: 0;}
-}
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+} 
 
+ @media screen and (max-width: 600px){
+    .main {
+        padding-left:20px;
+        padding-right: 20px;
+        flex-direction: column;
+    }
+    .imagen {
+        order: 2;
+    }
+    .catalogo {
+        order: 1;
+    }
+    .futer {
+        flex-direction: column;
+    }
+    .futer * {
+        padding:0;
+        margin:0;
+    }
+}
+/* @media screen and (max-width: 1200px){
+    html * {margin: 0; padding: 0;}
+} */
 
