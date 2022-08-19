@@ -6,7 +6,7 @@
     padding: 55px;
     }
 .container h1 {
-    font-size: 70px;
+    font-size: 60px;
     text-shadow: 1px 1px 3px white;
     font-weight: bold;
 }
@@ -94,7 +94,7 @@
     align-items: flex-start;
 } 
 
- @media screen and (max-width: 600px){
+ @media screen and (min-width: 600px){
     .main {
         padding-left:20px;
         padding-right: 20px;
@@ -113,8 +113,84 @@
         padding:0;
         margin:0;
     }
+     .header {
+     padding-left: 0px;
+     padding-right: 0px;
+     }
+  
+    .container {
+        margin-bottom: 500px;
+        align-items: flex-start;
+        padding-left: 0px;
+    }
+    .container h1 {
+       font-size: 40px;
+       padding-right: 70px;
+    }
+    .container h5 {
+        font-size: 15px;
+        padding-right: 70px;
+     }
+     .container p {
+        font-size: 15px;
+        padding-right: 70px;
+     }
+     .btn {
+        font-size: 10px;
+     }
+     .form-control {
+        font-size: 10px;
+     }
 }
-/* @media screen and (max-width: 1200px){
+@media screen and (max-width: 599px){
+    .main {
+        padding-left:20px;
+        padding-right: 20px;
+        flex-direction: column;
+    }
+    .imagen {
+        order: 2;
+    }
+    .catalogo {
+        order: 1;
+    }
+    .futer {
+        flex-direction: column;
+    }
+    .futer * {
+        padding:0;
+        margin:0;
+    }
+     .header {
+     padding-left: 0px;
+     padding-right: 0px;
+     }
+  
+    .container {
+        margin-bottom: 500px;
+        align-items: flex-start;
+        padding-left: 0px;
+    }
+    .container h1 {
+       font-size: 40px;
+       padding-right: 70px;
+    }
+    .container h5 {
+        font-size: 15px;
+        padding-right: 70px;
+     }
+     .container p {
+        font-size: 15px;
+        padding-right: 70px;
+     }
+     .btn {
+        font-size: 10px;
+     }
+     .form-control {
+        font-size: 10px;
+     }
+}
+ @media screen and (max-width: 1200px){
     html * {margin: 0; padding: 0;}
-} */
+} 
 
