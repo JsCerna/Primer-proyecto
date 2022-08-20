@@ -19,10 +19,10 @@
     display: grid;
     font-size: large;
     font-weight: bold;
-    padding-right: 100px;
-    margin-top: 200px;
+    /* padding-right: 50px; 
+    margin-left: 50px; */
+    margin-top: 50px; 
     font-family: sans-serif;
-    margin-left: 150px;
     }
 
 .main {
@@ -35,9 +35,9 @@
     border-width: 5px;
     border-style: double;
     border-color: black;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 10px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    padding-top: 25px;
     margin-bottom: 5px;
 
 }
@@ -74,16 +74,16 @@
 .futer {
     display:flex;
     margin-bottom: 10px;
-    margin-left: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 0px;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
 }
 
 .futer ul {
     margin: 25px;
-    margin-left: 80px;
-
+    margin-left: 50px;
+ 
 }
 .futer li {
     margin: 20px;
@@ -94,103 +94,54 @@
     align-items: flex-start;
 } 
 
- @media screen and (min-width: 600px){
-    .main {
-        padding-left:20px;
-        padding-right: 20px;
-        flex-direction: column;
-    }
-    .imagen {
-        order: 2;
-    }
-    .catalogo {
-        order: 1;
-    }
-    .futer {
-        flex-direction: column;
-    }
-    .futer * {
-        padding:0;
-        margin:0;
-    }
-     .header {
-     padding-left: 0px;
-     padding-right: 0px;
-     }
-  
-    .container {
-        margin-bottom: 500px;
-        align-items: flex-start;
-        padding-left: 0px;
-    }
-    .container h1 {
-       font-size: 40px;
-       padding-right: 70px;
-    }
-    .container h5 {
-        font-size: 15px;
-        padding-right: 70px;
-     }
-     .container p {
-        font-size: 15px;
-        padding-right: 70px;
-     }
-     .btn {
-        font-size: 10px;
-     }
-     .form-control {
-        font-size: 10px;
-     }
-}
-@media screen and (max-width: 599px){
-    .main {
-        padding-left:20px;
-        padding-right: 20px;
-        flex-direction: column;
-    }
-    .imagen {
-        order: 2;
-    }
-    .catalogo {
-        order: 1;
-    }
-    .futer {
-        flex-direction: column;
-    }
-    .futer * {
-        padding:0;
-        margin:0;
-    }
-     .header {
-     padding-left: 0px;
-     padding-right: 0px;
-     }
-  
-    .container {
-        margin-bottom: 500px;
-        align-items: flex-start;
-        padding-left: 0px;
-    }
-    .container h1 {
-       font-size: 40px;
-       padding-right: 70px;
-    }
-    .container h5 {
-        font-size: 15px;
-        padding-right: 70px;
-     }
-     .container p {
-        font-size: 15px;
-        padding-right: 70px;
-     }
-     .btn {
-        font-size: 10px;
-     }
-     .form-control {
-        font-size: 10px;
-     }
-}
  @media screen and (max-width: 1200px){
-    html * {margin: 0; padding: 0;}
-} 
+    .main {
+        padding-left: 5px;
+        padding-right: 5px;
+        flex-direction: column;
+    }
+    .imagen {
+        order: 2;
+    }
+    .catalogo {
+        order: 1;
+    }
+    .futer {
+        flex-direction: column;
+    }
+    .futer * {
+        padding:0;
+        margin:0;
+    }
+     .header {
+     padding-left: 0px;
+     padding-right: 0px;
+     background-position: center;
+     }
+  
+    .container {
+        align-content: flex-start
 
+    }
+    .container h1 {
+       font-size: 40px; 
+    }
+    .container h5 {
+        font-size: 15px;
+        padding-right: 50px;
+     }
+     .container p {
+        font-size: 15px;
+        padding-right: 50px;
+     }
+     .btn {
+        font-size: 15px;
+     }
+     .form-control {
+        font-size: 15px;
+     }
+}
+
+@media screen and (max-width: 1280px){
+    html * {margin: 0; padding: 0;}
+}
