@@ -7,10 +7,10 @@ Dentro de la landing page ofrecemos 3 diferentes tablas, la "CHEW TOY" es un mod
 diseñado para aquellos surfistas de nivel medio-profesional.
 El modelo "SISTA BROTHA" es un modelo de nivel más profesional, ya que está diseñado
 para olas más perfectas y tubulares.
-También por cada compra de una tabla ofrecemos de regalo 5 ceras orgánicas para incentivar la compra
-de materiales orgánicos, los cuales no son dañinos para el medio ambiente marino.
 Finalmente se ofrece una tabla para principiantes llamado "MINI TANKER", de esta manera buscamos
 abarcar todo el segmento de surfistas posibles.
+También por cada compra de una tabla ofrecemos de regalo 5 ceras orgánicas para incentivar la compra
+de materiales orgánicos, los cuales no son dañinos para el medio ambiente marino.
 Los precios varían según las medidas de las tablas y diseños a elección.
 Para mayor información se ofrece contacto a través de correo electrónico y también redes sociales.
 
