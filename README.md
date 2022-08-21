@@ -14,3 +14,5 @@ abarcar todo el segmento de surfistas posibles.
 Los precios varían según las medidas de las tablas y diseños a elección.
 Para mayor información se ofrece contacto a través de correo electrónico y también redes sociales.
 
+
+https://rustysurfboardschile.netlify.app/
