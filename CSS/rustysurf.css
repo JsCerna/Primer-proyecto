@@ -30,7 +30,7 @@
     min-height: 55vh;
     display: flex;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: 3px;
     font-family: sans-serif;
     border-width: 5px;
     border-style: double;
@@ -38,7 +38,7 @@
     /* padding-left: 200px;
     padding-right: 200px; */
     padding-top: 25px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 
 }
 
@@ -73,7 +73,7 @@
 }
 .futer {
     display:flex;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: 30px;
     padding-left: 30px;
     padding-right: 30px;
